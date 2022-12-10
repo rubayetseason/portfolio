@@ -30,7 +30,7 @@ const Header = () => {
             className="menu menu-compact text-lg dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <a href="#homeid">Home</a>
             </li>
             <li>
               <a href="#serviceid">Services</a>
@@ -50,7 +50,7 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal  text-lg px-1">
           <li>
-            <a>Home</a>
+            <a href="#homeid">Home</a>
           </li>
           <li>
             <a href="#serviceid">Services</a>

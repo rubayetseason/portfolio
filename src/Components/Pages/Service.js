@@ -4,7 +4,7 @@ const Service = ({servicedata}) => {
     const {name, image, detail, tech} = servicedata;
 
     return (
-        <div className="w-full rounded-md shadow-md bg-secondary text-gray-100">
+        <div className="w-full cursor-pointer serv rounded-md shadow-md bg-secondary text-gray-100">
 	<img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
 	<div className="flex flex-col justify-between p-6 space-y-8">
 		<div className="space-y-2">
