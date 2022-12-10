@@ -1,25 +1,38 @@
-import React from 'react';
-import bg from '../../Assets/bg.png';
+import React from "react";
+import bg from "../../Assets/bg.png";
 
 const AboutMe = () => {
-    return (
-        <div className="p-5 mx-auto sm:p-10 md:p-16 bg-base-100 text-gray-100">
-	<div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
-		<img src={bg} alt="" className="w-full h-60 sm:h-96 bg-gray-500" />
-		<div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-900">
-			<div className="space-y-2">
-				<a rel="noopener noreferrer" href="#" className="inline-block text-2xl font-semibold sm:text-3xl">The Best Activewear from the Nordstrom Anniversary Sale</a>
-				<p className="text-xs text-gray-400">By
-					<a rel="noopener noreferrer" href="#" className="text-xs hover:underline">Leroy Jenkins</a>
-				</p>
-			</div>
-			<div className="text-gray-100">
-				<p>Insert the actual text content here...</p>
-			</div>
-		</div>
-	</div>
-</div>
-    );
+  return (
+    <section className="mt-14 md:mt-26 lg:mt-30 w-full">
+      <div
+        className="p-5 mx-auto sm:p-10 md:p-16 bg-base-100 text-gray-100"
+        data-aos="fade-up"
+      >
+        <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
+          <img src={bg} alt="" className="w-full h-60 sm:h-96 bg-gray-500" />
+          <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-900">
+            <div className="space-y-2">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="inline-block text-3xl font-semibold sm:text-4xl"
+              >
+                About Me
+              </a>
+            </div>
+            <div className="text-gray-100">
+              <p className="text-lg md:text-xl">
+                I am a web developer with proficiency in ReactJS, JavaScript,
+                HTML5, CSS3, and related frameworks, in addition to other core
+                front-end skills. I also have background working with backend
+                technologies like NodeJS, ExpressJS, and MongoDB.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default AboutMe;
