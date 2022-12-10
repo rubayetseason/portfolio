@@ -3,7 +3,7 @@ import pic from "../../Assets/bnw.jpeg";
 
 const Hero = () => {
   return (
-    <div className="hero bg-base-100 text-accent mt-5 md:px-3">
+    <div className="hero bg-base-100 text-accent mt-24 md:px-3">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={pic} className="max-w-sm w-11/12 md:w-full rounded-lg shadow-2xl" alt="" />
         <div className="md:w-1/2 mt-5 md:mt-1">

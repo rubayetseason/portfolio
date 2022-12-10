@@ -8,6 +8,7 @@ const Header = () => {
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeInOut" }}
+      className='fixed top-0 w-full overflow-hidden z-[99]'
     >
       <div className="navbar bg-secondary">
         <div className="navbar-start">
