@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { HiDownload } from "react-icons/hi";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeInOut" }}
     >
-      <div className="navbar bg-secondary px-5">
+      <div className="navbar bg-secondary">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +30,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-secondary text-lg rounded-box w-52"
+              className="menu menu-compact text-lg dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <a>Home</a>
@@ -48,7 +49,7 @@ const Header = () => {
           <a className="btn btn-ghost normal-case text-xl">Rubayet Islam</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal  text-lg p-0">
+          <ul className="menu menu-horizontal  text-lg px-1">
             <li>
               <a>Home</a>
             </li>
@@ -64,7 +65,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-primary rounded-none">Download Resume</a>
+          <a className="btn btn-primary">
+            <HiDownload /> &nbsp; Resume
+          </a>
         </div>
       </div>
     </motion.div>

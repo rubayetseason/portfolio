@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 
 const SocialBar = () => {
   return (
-    <div className="px-10 my-auto text-xl flex flex-col gap-5">
+    <div className="hidden md:flex px-10 my-auto text-xl flex-col gap-5">
       <div className="text-accent hover:text-primary">
         <FiLinkedin />
       </div>
