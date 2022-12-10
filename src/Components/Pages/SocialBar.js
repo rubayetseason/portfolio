@@ -6,19 +6,27 @@ const SocialBar = () => {
   return (
     <div className="hidden md:flex px-10 my-auto text-xl flex-col gap-5">
       <div className="text-accent hover:text-primary">
-        <FiLinkedin />
+        <a href="https://www.linkedin.com/in/rubayet-islam2001/">
+          <FiLinkedin />
+        </a>
       </div>
       <div className="text-white hover:text-primary">
         {" "}
-        <FiGithub />
+        <a href="https://github.com/rubayetseason">
+          <FiGithub />
+        </a>
       </div>
       <div className="text-accent hover:text-primary">
         {" "}
-        <FiFacebook />
+        <a href="https://www.facebook.com/rubayet.islam.sizn">
+          <FiFacebook />
+        </a>
       </div>
       <div className="text-accent hover:text-primary">
         {" "}
-        <SiGmail />
+        <a href="mailto:rubayetislamseason5@gmail.com">
+          <SiGmail />
+        </a>
       </div>
     </div>
   );
