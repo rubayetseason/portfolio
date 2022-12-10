@@ -6,6 +6,7 @@ import Header from "./Components/Shared/Header";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Services from "./Components/Pages/Services";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
         <Hero></Hero>
       </div>
       <AboutMe></AboutMe>
+      <Services></Services>
     </div>
   );
 }

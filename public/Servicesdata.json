@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Complete website with HTML, CSS & JavaScript",
+      "image":"./images/html.jpg",
+      "detail": "I can leverage the Figma design supplied by the client to transform it into completely responsive, user-friendly websites using HTML, CSS, and JavaScript.",
+      "tech": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "name": "Single Page Appication with ReactJS",
+      "image":"./images/react.png",
+      "detail": "I can build and design single-page React websites that are completely responsive, authenticated, have dynamic routes, and use component-based data fetching techniques.",
+      "tech": ["ReactJS", "React Router DOM", "JavaScript", "Axios", "Firebase"]
+    },
+    {
+      "id": 3,
+      "name": "MERN stack web application",
+      "image":"./images/fullstack.jpg",
+      "detail": "Utilizing NodeJS, ExpressJS, ReactJS, and MongoDB, I can build a full-stack website that includes all CRUD operations as well as complete authentication and authorization capabilities like JWT, admin roles, and payment gateway systems.",
+      "tech": ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Firebase"]
+    }
+  ]
+  
