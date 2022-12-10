@@ -1,16 +1,9 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { HiDownload } from "react-icons/hi";
 
 const Header = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: -50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, ease: "easeInOut" }}
-      className='fixed top-0 w-full overflow-hidden z-[99]'
-    >
-      <div className="navbar bg-secondary">
+      <div className="navbar bg-secondary fixed top-0 z-[99]" data-aos="fade-down">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -71,7 +64,6 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </motion.div>
   );
 };
 
