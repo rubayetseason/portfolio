@@ -32,7 +32,7 @@
     "name": "Doctor's Portal",
     "project_info": "An Dental Appointment Website",
     "image": "./projectimg/preview-3.png",
-    "short_detail": "This was my first ever full-stack React website with authentication and authorization included. This is a dental appointment website where the patients can take reservation for each day and book their slots respectively. The admins can also add doctors likewise and check the booked reservation in the dashboard.",
+    "short_detail": "My first full-stack React website that incorporated authentication and authorisation. This website allows users to schedule dentist appointments and make reservations for certain days and times. The admin may also add physicians and view the slots that have been made on the dashboard.",
     "detail": "This is a full-stack React website styled with Tailwind CSS and DaisyUI component library. The patients can book their slots for each day. To book the slots, a modal will open up to take their necessary information and thus the booking will be confirmed. They can also check their  booking from the dashboard, and proceed for payment completion. The admin, on the other hand, can check all the patient slots along with, he/she can add another doctor to work. The user data here is secured with JWT and Firebase authentication.",
     "slide1": "./projectimg/doc-1.png",
     "slide2": "./projectimg/doc-2.png",
