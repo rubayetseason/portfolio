@@ -22,6 +22,9 @@ const SocialBar = () => {
           <FiFacebook />
         </a>
       </div>
+      <div className="text-accent hover:text-primary mt-3">
+        <a href="mailto:rubayetislamseason5@gmail.com"><SiGmail /></a>
+      </div>
     </div>
   );
 };

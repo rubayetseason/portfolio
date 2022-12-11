@@ -2,7 +2,8 @@ import pic from "../../Assets/bnw.jpeg";
 
 const Hero = () => {
   return (
-    <div data-aos='fade-up' id="homeid" className="hero bg-base-100 text-accent mt-24 md:px-3">
+   <div>
+     <div data-aos='fade-up' id="homeid" className="hero bg-base-100 text-accent mt-24 md:px-3">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={pic}
@@ -22,6 +23,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 

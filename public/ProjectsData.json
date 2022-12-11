@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Motohub",
+    "project_info": "A Virtual Garage for Used Bikes",
+    "image": "./projectimg/preview-1.png",
+    "short_detail": "This is a React project for used motorbike buying and selling. Buyers can buy/wishlist their desired bikes here and complete the payment, whereas sellers can post their bikes and checkout their buyers. Lastly, admins can check all the buyers, sellers and their acitivites.",
+    "detail": "This is a fully authenticated and authorized website created with ReactJS. The homepage shows all the advertized bikes as well as a catagory based bike section. The products page is used to check all the available bikes data fetched from the dedicated database. Buyers can pay for their products with card method, while the sellers can post their new products to the website. The admin can check on all the activities of the buyers and sellers and delete one if necessary. The entire project created with the help of Tailwind CSS gives it the aestheticness it needs to complete it as a full-stack website.",
+    "slide1": "./projectimg/moto-1.png",
+    "slide2": "./projectimg/moto-2.png",
+    "slide3": "./projectimg/moto-3.png",
+    "live": "https://motohub-35078.web.app/",
+    "client": "https://github.com/rubayetseason/motohub-client",
+    "server": "https://github.com/rubayetseason/motohub-server"
+  },
+  {
+    "id": 2,
+    "name": "Nitflex",
+    "project_info": "A Netflix Clone",
+    "image": "./projectimg/preview-2.png",
+    "short_detail": "This is a React Project, as by the title says, a Netflix Clone, where users can checkout their desired movies and series trailer by clicking the poster. ",
+    "detail": "As a Netflix clone, this website has almost all the features and functionalities of that of Netflix. Although this is only a client side website with no server side, thus all the movie data here are fetched from the TMDB database API. This website uses Tailwind CSS for styling and Firebase for authentication. react-youtube and react-trailer packages are used to show the trailer when a poster is clicked",
+    "slide1": "./projectimg/net-1.png",
+    "slide2": "./projectimg/net-2.png",
+    "slide3": "./projectimg/net-3.png",
+    "live": "https://netflix-clone-client-f7fec.web.app/",
+    "client": "https://github.com/rubayetseason/netflix-clone-client",
+    "server": ""
+  },
+  {
+    "id": 3,
+    "name": "Doctor's Portal",
+    "project_info": "An Dental Appointment Website",
+    "image": "./projectimg/preview-3.png",
+    "short_detail": "This was my first ever full-stack React website with authentication and authorization included. This is a dental appointment website where the patients can take reservation for each day and book their slots respectively. The admins can also add doctors likewise and check the booked reservation in the dashboard.",
+    "detail": "This is a full-stack React website styled with Tailwind CSS and DaisyUI component library. The patients can book their slots for each day. To book the slots, a modal will open up to take their necessary information and thus the booking will be confirmed. They can also check their  booking from the dashboard, and proceed for payment completion. The admin, on the other hand, can check all the patient slots along with, he/she can add another doctor to work. The user data here is secured with JWT and Firebase authentication.",
+    "slide1": "./projectimg/doc-1.png",
+    "slide2": "./projectimg/doc-2.png",
+    "slide3": "./projectimg/doc-3.png",
+    "live": "https://doctors-portal-ebd02.web.app/",
+    "client": "https://github.com/rubayetseason/doctors-portal-client",
+    "server": "https://github.com/rubayetseason/doctors-portal-server"
+  },
+  {
+    "id": 4,
+    "name": "Quiz Master",
+    "project_info": "A Quiz Taking Application",
+    "image": "./projectimg/preview-4.png",
+    "short_detail": "This is a quiz taking React application where the user can judge their programming knowledge based on the quiz topics we have. The correct answer will throw a success toast, contrastingly, a wrong answer will throw an error toast.",
+    "detail": "With the help of the quiz questions in this React application, users may assess their level of programming expertise. A successful toast will be thrown if the response is accurate, whereas an error toast will be thrown if the answer is incorrect. The entire site is styled with Tailwind. The statistics section will show a simple line graph created from recharts.",
+    "slide1": "./projectimg/quiz1.png",
+    "slide2": "./projectimg/quiz2.png",
+    "slide3": "./projectimg/quiz3.png",
+    "live": "https://cheery-cajeta-dc4a7e.netlify.app",
+    "client": "https://github.com/rubayetseason/quiz-master",
+    "server": ""
+  },
+  {
+    "id": 5,
+    "name": "5 Minute School",
+    "project_info": "A Digital Education Website",
+    "image": "./projectimg/preview-5.png",
+    "short_detail": "This is Tech-Education website created with only pure HTML and CSS. The CSS is helped with Bootstrap component library.",
+    "detail": "This is Tech-Educational website created with only pure HTML and CSS, with a view to perfect the UI skills of mine. The CSS is helped with Bootstrap component library, and the website is completely responsive for smaller, medium and larger applications.",
+    "slide1": "./projectimg/edu1.png",
+    "slide2": "./projectimg/edu2.png",
+    "slide3": "./projectimg/edu3.png",
+    "live": "https://spiffy-madeleine-242a3f.netlify.app",
+    "client": "https://github.com/rubayetseason/project3",
+    "server": ""
+  }
+]
