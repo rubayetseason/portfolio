@@ -19,7 +19,7 @@ const Hero = () => {
             </span>
           </p>
           <p className="text-xl">A Front-End Web Developer</p>
-          <button className="btn btn-primary mt-3">Let's Explore</button>
+          <a href="#ProjectsID"><button className="btn btn-primary mt-3">Let's Explore</button></a>
         </div>
       </div>
     </div>

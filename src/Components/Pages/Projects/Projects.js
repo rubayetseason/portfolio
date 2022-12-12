@@ -19,7 +19,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="proejctsId" className="mt-24 md:mt-44" data-aos="fade-up">
+    <section id="ProjectsID" className="mt-24 md:mt-44" data-aos="fade-up">
       <h1 className="text-3xl md:text-5xl mt-14 font-bold text-center">
         My Projects
       </h1>
@@ -55,7 +55,12 @@ const Projects = () => {
           ))}
         </Swiper>
       </div>
-      {modalData && <ProjectModal modalData={modalData} setModalData={setModalData}></ProjectModal>}
+      {modalData && (
+        <ProjectModal
+          modalData={modalData}
+          setModalData={setModalData}
+        ></ProjectModal>
+      )}
     </section>
   );
 };

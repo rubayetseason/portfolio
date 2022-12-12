@@ -36,7 +36,7 @@ const Header = () => {
               <a href="#serviceid">Services</a>
             </li>
             <li>
-              <a href="#proejctsId">Projects</a>
+              <a href="#ProjectsID">Projects</a>
             </li>
             <li>
               <a href="#contactId">Contact</a>
@@ -56,7 +56,7 @@ const Header = () => {
             <a href="#serviceid">Services</a>
           </li>
           <li>
-            <a href="#proejctsId">Projects</a>
+            <a href="#ProjectsID">Projects</a>
           </li>
           <li>
             <a href="#contactId">Contact</a>
