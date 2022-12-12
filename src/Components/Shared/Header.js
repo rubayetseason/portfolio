@@ -4,7 +4,7 @@ import { HiDownload } from "react-icons/hi";
 const Header = () => {
   return (
     <div
-      className="navbar bg-secondary top-0 sticky z-50"
+      className="navbar bg-secondary top-0 fixed z-50"
       data-aos="fade-down"
     >
       <div className="navbar-start">
@@ -36,10 +36,10 @@ const Header = () => {
               <a href="#serviceid">Services</a>
             </li>
             <li>
-              <a>Projects</a>
+              <a href="#proejctsId">Projects</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#contactId">Contact</a>
             </li>
           </ul>
         </div>
@@ -59,7 +59,7 @@ const Header = () => {
             <a href="#proejctsId">Projects</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contactId">Contact</a>
           </li>
         </ul>
       </div>
