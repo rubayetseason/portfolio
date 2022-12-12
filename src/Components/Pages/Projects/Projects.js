@@ -26,7 +26,7 @@ const Projects = () => {
 
       <div className="px-5">
         <Swiper
-          className="grid mt-10 grid-cols-1 md:grid-cols-2 lg:gir"
+          className="grid mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
           modules={[Navigation, Autoplay]}
           spaceBetween={20}
           autoplay={true}

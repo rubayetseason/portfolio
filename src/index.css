@@ -34,6 +34,27 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.modal{
+ overflow: hidden;
+ -ms-overflow-style: none;  
+ scrollbar-width: none;  
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+#project-modal{
+  overflow: hidden;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+#project-modal::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .serv {
 transition: transform ease-in-out 0.2s;
 }
