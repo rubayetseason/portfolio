@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import Services from "./Components/Pages/Services";
 import Projects from "./Components/Pages/Projects/Projects";
 import Contact from "./Components/Pages/Contact";
+import Footer from "./Components/Shared/Footer";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <Services></Services>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

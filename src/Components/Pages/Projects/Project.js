@@ -4,7 +4,7 @@ const Project = ({ project, setModalData }) => {
   const { name, project_info, image, short_detail, live } = project;
 
   return (
-    <div className="card bg-secondary shadow-xl h-full">
+    <div className="card bg-secondary rounded-none shadow-xl h-full">
       <img src={image} alt="projectImage" />
       <div className="card-body">
         <div className="mb-5">

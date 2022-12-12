@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  color: white;
+  color: var(--offwhite);
   font-family: "Space Grotesk", sans-serif;
   margin: 0;
   padding: 0;
