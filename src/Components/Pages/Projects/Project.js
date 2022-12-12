@@ -1,7 +1,8 @@
 import React from "react";
 
-const Project = ({ project }) => {
+const Project = ({ project, setModalData }) => {
   const { name, project_info, image, short_detail, live } = project;
+
   return (
     <div className="card bg-secondary shadow-xl h-full">
       <img src={image} alt="projectImage" />
@@ -11,7 +12,7 @@ const Project = ({ project }) => {
           <p className="text-lg">{project_info}</p>
         </div>
         <p className="leading-relaxed mb-2">{short_detail}</p>
-        <label htmlFor="project-modal" className="btn btn-sm btn-outline rounded-none">Project Detail</label>
+        <label onClick={() => setModalData(project)} htmlFor="project-modal" className="btn btn-sm btn-outline rounded-none">Project Detail</label>
         <a
           className="btn btn-sm btn-outline rounded-none"
           href={live}

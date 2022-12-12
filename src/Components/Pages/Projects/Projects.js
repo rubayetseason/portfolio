@@ -10,6 +10,7 @@ import ProjectModal from "../../Shared/ProjectModal";
 
 const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
+  const [modalData, setModalData] = useState(null);
 
   useEffect(() => {
     fetch("ProjectsData.json")
@@ -45,12 +46,16 @@ const Projects = () => {
         >
           {projectsData.map((project, i) => (
             <SwiperSlide key={i}>
-              <Project key={i} project={project}></Project>
+              <Project
+                key={i}
+                project={project}
+                setModalData={setModalData}
+              ></Project>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-      <ProjectModal></ProjectModal>
+      {modalData && <ProjectModal modalData={modalData} setModalData={setModalData}></ProjectModal>}
     </section>
   );
 };
