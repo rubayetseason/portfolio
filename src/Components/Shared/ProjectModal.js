@@ -22,10 +22,10 @@ const ProjectModal = ({ modalData, setModalData }) => {
     setModalData(null);
   };
   return (
-    <div className="mdd">
+    <div>
       <input type="checkbox" id="project-modal" className="modal-toggle" />
       <div className="modal">
-        <div className="modal-box relative w-1/2 max-w-5xl z-[99]">
+        <div className="modal-box relative w-11/12 md:w-3/5 max-w-5xl">
           <label
             onClick={handleclick}
             htmlFor="project-modal"
@@ -54,7 +54,7 @@ const ProjectModal = ({ modalData, setModalData }) => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <h3 className="text-2xl font-bold mt-2">{name}</h3>
+          <h3 className="text-2xl font-bold mt-3">{name}</h3>
           <h3 className="text-lg font-bold">{project_info}</h3>
           <p className="pt-2 pb-4">{detail}</p>
           <div className="flex gap-2">

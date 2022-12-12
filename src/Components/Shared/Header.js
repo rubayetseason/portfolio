@@ -4,7 +4,7 @@ import { HiDownload } from "react-icons/hi";
 const Header = () => {
   return (
     <div
-      className="navbar bg-secondary fixed top-0 z-[50]"
+      className="navbar bg-secondary top-0 sticky z-50"
       data-aos="fade-down"
     >
       <div className="navbar-start">
