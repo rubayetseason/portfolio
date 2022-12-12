@@ -11,9 +11,7 @@ const Project = ({ project }) => {
           <p className="text-lg">{project_info}</p>
         </div>
         <p className="leading-relaxed mb-2">{short_detail}</p>
-        <button className="btn btn-sm btn-outline rounded-none">
-          Project Detail
-        </button>
+        <label htmlFor="project-modal" className="btn btn-sm btn-outline rounded-none">Project Detail</label>
         <a
           className="btn btn-sm btn-outline rounded-none"
           href={live}

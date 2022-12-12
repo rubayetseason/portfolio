@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import Project from "./Project";
+import ProjectModal from "../../Shared/ProjectModal";
 
 const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
@@ -49,6 +50,7 @@ const Projects = () => {
           ))}
         </Swiper>
       </div>
+      <ProjectModal></ProjectModal>
     </section>
   );
 };
