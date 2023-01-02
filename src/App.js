@@ -18,7 +18,7 @@ function App() {
   },[]);
 
   return (
-    <div className="App max-w-[1440px] mx-auto">
+    <div className="max-w-[1440px] mx-auto">
       <Header></Header>
       <div className="flex">
           <SocialBar></SocialBar>

@@ -1,10 +1,11 @@
 import React from "react";
 import { HiDownload } from "react-icons/hi";
+import './Header.css';
 
 const Header = () => {
   return (
     <div
-      className="navbar bg-secondary top-0 fixed z-50"
+      className="navbar bg-secondary top-0 fixed z-50 max-w-[1440px] mx-auto"
       data-aos="fade-down"
     >
       <div className="navbar-start">
@@ -43,7 +44,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl" href="/">
+        <a className="btn btn-ghost normal-case text-xl rubayet" href="/">
           Rubayet Islam
         </a>
       </div>
