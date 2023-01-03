@@ -1,6 +1,6 @@
 import React from "react";
 import { HiDownload } from "react-icons/hi";
-import './Header.css';
+import "./Header.css";
 
 const Header = () => {
   return (
