@@ -14,20 +14,6 @@
     "server": "https://github.com/rubayetseason/motohub-server"
   },
   {
-    "id": 2,
-    "name": "Nitflex",
-    "project_info": "A Netflix Clone",
-    "image": "./projectimg/preview-2.png",
-    "short_detail": "This is a React Project, as by the title says, a Netflix Clone, where users can checkout their desired movies and series trailer by clicking the poster. ",
-    "detail": "As a Netflix clone, this website has almost all the features and functionalities of that of Netflix. Although this is only a client side website with no server side, thus all the movie data here are fetched from the TMDB database API. This website uses Tailwind CSS for styling and Firebase for authentication. react-youtube and react-trailer packages are used to show the trailer when a poster is clicked",
-    "slide1": "./projectimg/net-1.png",
-    "slide2": "./projectimg/net-2.png",
-    "slide3": "./projectimg/net-3.png",
-    "live": "https://netflix-clone-client-f7fec.web.app/",
-    "client": "https://github.com/rubayetseason/netflix-clone-client",
-    "server": ""
-  },
-  {
     "id": 3,
     "name": "Doctor's Portal",
     "project_info": "An Dental Appointment Website",
@@ -43,6 +29,34 @@
   },
   {
     "id": 4,
+    "name": "Mengary",
+    "project_info": "An E-commerce Website",
+    "image": "./projectimg/preview-5.png",
+    "short_detail": "This is a React project for an E-commerce site where user can buy their desired products. Buyers can buy here through adding those items in the cart and complete the payment for their products.",
+    "detail": "This is a full-stack React website styled with Tailwind CSS and DaisyUI component library. The user customers can add their desired product to the cart. Through the cart, the user can complete their payment through Stripe payment method or they can either add more items to the cart. A dedicated MongoDB database is used for the server side to fetch the data and Context API with the help of CRUD operation is usedfor the cart functionality.",
+    "slide1": "./projectimg/e1.png",
+    "slide2": "./projectimg/e2.png",
+    "slide3": "./projectimg/e3.png",
+    "live": "https://mengary.netlify.app",
+    "client": "https://github.com/rubayetseason/mengary-client",
+    "server": "https://github.com/rubayetseason/mengary-server"
+  },
+  {
+    "id": 2,
+    "name": "Nitflex",
+    "project_info": "A Netflix Clone",
+    "image": "./projectimg/preview-2.png",
+    "short_detail": "This is a React Project, as by the title says, a Netflix Clone, where users can checkout their desired movies and series trailer by clicking the poster.",
+    "detail": "As a Netflix clone, this website has almost all the features and functionalities of that of Netflix. Although this is only a client side website with no server side, thus all the movie data here are fetched from the TMDB database API. This website uses Tailwind CSS for styling and Firebase for authentication. react-youtube and react-trailer packages are used to show the trailer when a poster is clicked",
+    "slide1": "./projectimg/net-1.png",
+    "slide2": "./projectimg/net-2.png",
+    "slide3": "./projectimg/net-3.png",
+    "live": "https://netflix-clone-client-f7fec.web.app/",
+    "client": "https://github.com/rubayetseason/netflix-clone-client",
+    "server": ""
+  },
+  {
+    "id": 5,
     "name": "Quiz Master",
     "project_info": "A Quiz Taking Application",
     "image": "./projectimg/preview-4.png",
@@ -53,20 +67,6 @@
     "slide3": "./projectimg/quiz3.png",
     "live": "https://cheery-cajeta-dc4a7e.netlify.app",
     "client": "https://github.com/rubayetseason/quiz-master",
-    "server": ""
-  },
-  {
-    "id": 5,
-    "name": "5 Minute School",
-    "project_info": "A Digital Education Website",
-    "image": "./projectimg/preview-5.png",
-    "short_detail": "This is Tech-Education website created with only pure HTML and CSS. The CSS is helped with Bootstrap component library.",
-    "detail": "This is Tech-Educational website created with only pure HTML and CSS, with a view to perfect the UI skills of mine. The CSS is helped with Bootstrap component library, and the website is completely responsive for smaller, medium and larger applications.",
-    "slide1": "./projectimg/edu1.png",
-    "slide2": "./projectimg/edu2.png",
-    "slide3": "./projectimg/edu3.png",
-    "live": "https://spiffy-madeleine-242a3f.netlify.app",
-    "client": "https://github.com/rubayetseason/project3",
     "server": ""
   }
 ]
