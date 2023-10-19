@@ -1,6 +1,22 @@
 [
   {
-    "id": 1,
+    "id": 3,
+    "name": "Lucali",
+    "project_info": "A Gourmet Restaurant Website",
+    "image": "./projectimg/preview-3.png",
+    "short_detail": "Lucali: A global gourmet restaurant website serving flavors from around the world. Frontend powered by Next.js app-router, RTK Query, and Axios. Backend built with Prisma, PostgreSQL, TypeScript, and Express for a seamless and delightful culinary experience. Bon appétit!",
+    "detail": "Lucali Gourmet Restaurant offers a global culinary adventure with an intuitive and stylish frontend, backed by a robust backend. The frontend, designed using Next.js, TypeScript, Tailwind CSS, and DaisyUI, ensures a visually appealing and user-friendly experience. Menu exploration, food details with customer ratings, and the ability to leave reviews and make reservations are some key features. Custom authentication based on access tokens is available for login and signup. The backend is built with Prisma, PostgreSQL, Express, and TypeScript, ensuring data integrity and security. It features various API routes for user management, reservations, authentication, menu items, and customer reviews, making Lucali a comprehensive dining destination.",
+    "slide1": "./projectimg/luc1.png",
+    "slide2": "./projectimg/luc2.png",
+    "slide3": "./projectimg/luc3.png",
+    "slide4": "./projectimg/luc4.png",
+    "slide5": "./projectimg/luc5.png",
+    "live": "https://lucali-frontend-rubayetseason.vercel.app/",
+    "client": "https://github.com/rubayetseason/lucali/tree/main/lucali-frontend",
+    "server": "https://github.com/rubayetseason/lucali/tree/main/lucali-backend"
+  },
+  {
+    "id": 4,
     "name": "Motohub",
     "project_info": "A Virtual Garage for Used Bikes",
     "image": "./projectimg/preview-1.png",
@@ -14,21 +30,7 @@
     "server": "https://github.com/rubayetseason/motohub-server"
   },
   {
-    "id": 3,
-    "name": "Doctor's Portal",
-    "project_info": "An Dental Appointment Website",
-    "image": "./projectimg/preview-3.png",
-    "short_detail": "My first full-stack React website that incorporated authentication and authorisation. This website allows users to schedule dentist appointments and make reservations for certain days and times. The admin may also add physicians and view the slots that have been made on the dashboard.",
-    "detail": "This is a full-stack React website styled with Tailwind CSS and DaisyUI component library. The patients can book their slots for each day. To book the slots, a modal will open up to take their necessary information and thus the booking will be confirmed. They can also check their  booking from the dashboard, and proceed for payment completion. The admin, on the other hand, can check all the patient slots along with, he/she can add another doctor to work. The user data here is secured with JWT and Firebase authentication.",
-    "slide1": "./projectimg/doc-1.png",
-    "slide2": "./projectimg/doc-2.png",
-    "slide3": "./projectimg/doc-3.png",
-    "live": "https://doctors-portal-ebd02.web.app/",
-    "client": "https://github.com/rubayetseason/doctors-portal-client",
-    "server": "https://github.com/rubayetseason/doctors-portal-server"
-  },
-  {
-    "id": 4,
+    "id": 2,
     "name": "Mengary",
     "project_info": "An E-commerce Website",
     "image": "./projectimg/preview-5.png",
@@ -42,7 +44,7 @@
     "server": "https://github.com/rubayetseason/mengary-server"
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Nitflex",
     "project_info": "A Netflix Clone",
     "image": "./projectimg/preview-2.png",

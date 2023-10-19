@@ -16,6 +16,8 @@ const ProjectModal = ({ modalData, setModalData }) => {
     slide1,
     slide2,
     slide3,
+    slide4,
+    slide5,
     live,
   } = modalData;
   const handleclick = () => {
@@ -52,6 +54,16 @@ const ProjectModal = ({ modalData, setModalData }) => {
               <SwiperSlide>
                 <img src={slide3} alt="" />
               </SwiperSlide>
+              {
+                slide4 && <SwiperSlide>
+                <img src={slide4} alt="" />
+              </SwiperSlide>
+              }
+              {
+                slide5 && <SwiperSlide>
+                <img src={slide5} alt="" />
+              </SwiperSlide>
+              }
             </Swiper>
           </div>
           <h3 className="text-2xl font-bold mt-3">{name}</h3>
