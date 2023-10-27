@@ -67,10 +67,11 @@ const Header = () => {
       <div className="navbar-end">
         <a
           className="btn btn-primary"
-          href="https://drive.google.com/file/d/13pnVOO6cRoS7ZP3xUocnoA7rlMMl9Ajv/view?usp=share_link"
+          href="https://drive.google.com/file/d/1yi07gyUr-06kc16pEXsUxSIG4u1sTlBP/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
-          <HiDownload /> &nbsp; Resume
+          <HiDownload className="text-xl" /> &nbsp; Resume
         </a>
       </div>
     </div>

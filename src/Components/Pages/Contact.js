@@ -7,7 +7,9 @@ const Contact = () => {
       <div className="px-5 flex flex-col md:flex-row items-center">
         <div className="text-center w-full md:w-1/2 lg:text-left col-span-5 lg:col-span-2">
           <div className="mb-5">
-            <h1 className="text-3xl md:text-5xl font-semibold mb-5">Contact Me</h1>
+            <h1 className="text-3xl md:text-5xl font-semibold mb-5">
+              Contact Me
+            </h1>
             <p className="text-xl leading-relaxed">
               Send me an email if you think we can connect with each other and
               may work together in the near future and I'll reach out to you.
@@ -16,7 +18,7 @@ const Contact = () => {
           <div className="mb-5 lg:mb-0">
             <h1 className="text-3xl font-semibold mb-5">My Socials</h1>
             <div className="flex justify-center md:justify-start">
-              <div className="text-3xl hover:text-primary mx-4">
+              <div className="text-3xl hover:text-primary mr-4">
                 {" "}
                 <a href="https://github.com/rubayetseason">
                   <FiGithub />
@@ -27,7 +29,7 @@ const Contact = () => {
                   <FiLinkedin />
                 </a>
               </div>
-              <div className="text-3xl hover:text-primary mx-4">
+              <div className="text-3xl hover:text-primary ml-4">
                 <a href="https://www.facebook.com/rubayet.islam.sizn">
                   <FiFacebook />
                 </a>

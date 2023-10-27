@@ -13,19 +13,19 @@ const AboutMe = () => {
           <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-secondary">
             <div className="space-y-2">
               <a
-                rel="noopener noreferrer"
-                href="#"
+                href="/"
                 className="inline-block text-3xl font-semibold sm:text-4xl"
               >
                 About Me
               </a>
             </div>
             <div className="text-gray-100">
-              <p className="text-lg md:text-xl">
-                I am a web developer with proficiency in ReactJS, JavaScript,
-                HTML5, CSS3, and related frameworks, in addition to other core
-                front-end skills. I also have background working with backend
-                technologies like NodeJS, ExpressJS, and MongoDB.
+              <p className="text-lg md:text-xl text-justify">
+                I am a fullstack web developer with proficiency in NextJS,
+                ReactJS, TypeScript and related frameworks, in addition
+                to other core front-end skills. I also have background working
+                with backend technologies like NodeJS, ExpressJS, and MongoDB,
+                PostgreSQL, Mongoose, Prisma & GraphQL.
               </p>
             </div>
           </div>
