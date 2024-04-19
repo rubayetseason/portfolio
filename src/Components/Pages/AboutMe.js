@@ -3,7 +3,7 @@ import bg from "../../Assets/bg.png";
 
 const AboutMe = () => {
   return (
-    <section className="mt-14 md:mt-26 lg:mt-30 w-full">
+    <section id="about_bg" className="mt-14 md:mt-26 lg:mt-30 w-full">
       <div
         className="p-5 mx-auto sm:p-10 md:p-16 bg-base-100 text-gray-100"
         data-aos="fade-up"
@@ -20,11 +20,11 @@ const AboutMe = () => {
               </a>
             </div>
             <div className="text-gray-100">
-              <p className="text-lg md:text-xl text-justify">
+              <p className="text-lg md:text-xl">
                 I am a fullstack web developer with proficiency in NextJS,
-                ReactJS, TypeScript and related frameworks, in addition
-                to other core front-end skills. I also have background working
-                with backend technologies like NodeJS, ExpressJS, and MongoDB,
+                ReactJS, TypeScript and related frameworks, in addition to other
+                core front-end skills. I also have background working with
+                backend technologies like NodeJS, ExpressJS, and MongoDB,
                 PostgreSQL, Mongoose, Prisma & GraphQL.
               </p>
             </div>

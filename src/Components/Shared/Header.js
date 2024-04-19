@@ -37,6 +37,9 @@ const Header = () => {
               <a href="#serviceid">Services</a>
             </li>
             <li>
+              <a href="#experienceid">Experience</a>
+            </li>
+            <li>
               <a href="#ProjectsID">Projects</a>
             </li>
             <li>
@@ -55,6 +58,9 @@ const Header = () => {
           </li>
           <li>
             <a href="#serviceid">Services</a>
+          </li>
+          <li>
+            <a href="#experienceid">Experience</a>
           </li>
           <li>
             <a href="#ProjectsID">Projects</a>

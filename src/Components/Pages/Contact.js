@@ -75,7 +75,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Type your message here"
                 name="message"
-                className="input input-bordered rounded-none p-2"
+                className="input input-bordered rounded-none p-2 resize-none h-24"
                 required
               />
             </div>
